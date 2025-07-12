@@ -12,3 +12,7 @@ conda activate ml_env
 python house_price.py
 ```
 
+*if you ever update the environment.yml file make sure to run*
+```bash
+conda env update -f environment.yml
+```
